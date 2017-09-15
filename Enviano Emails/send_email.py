@@ -7,7 +7,7 @@ from email import encoders
 fromaddr = 'rauldearaujolima@gmail.com'
 toaddrs  = 'rauldearaujolima@gmail.com'
 
-msg = 	MIMEMultipart()
+msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddrs
 msg['Subject'] = 'SUBJECT OF THE MAIL'
